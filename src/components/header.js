@@ -7,12 +7,12 @@ const Header = ({ siteTitle }) => (
     style={{
       background: `inherit`,
       marginBottom: `1.45rem`,
-      display: 'flex'
+      display: "flex",
     }}
   >
     <div
       style={{
-        marginLeft: '2rem',
+        marginLeft: "2rem",
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
       }}
