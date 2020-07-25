@@ -14,3 +14,15 @@
 .label {
     color: $secondary-color;
 }
+
+.separator {
+    height: 5px;
+    width: 45px;
+    background-color: $secondary-color;
+    margin: 15px 0px;
+}
+
+.paragraph {
+    font-size: 20px;
+    width: 30rem;
+}
