@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+
+.header {
+    background: inherit;
+    margin-bottom: 1.45rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoContainer {
+    margin-left: 2rem;
+}
+
+.navbar {
+    margin-right: 2rem;
+}
+
+.navlink {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 14px;
+
+    letter-spacing: 0.1em;
+
+    color: #FFFFFE;
+}
