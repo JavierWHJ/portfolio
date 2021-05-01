@@ -22,8 +22,12 @@
     font-weight: 300;
     font-size: 1rem;
     line-height: 14px;
-
+    margin-left: 50px;
     letter-spacing: 0.1em;
-
+    text-decoration: none;
     color: #FFFFFE;
+}
+
+.navlink:hover {
+    color: $secondary-color;
 }
