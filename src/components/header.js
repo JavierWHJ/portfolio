@@ -14,7 +14,6 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         marginLeft: "2rem",
-        maxWidth: 960,
       }}
     >
       <Link to="/">
