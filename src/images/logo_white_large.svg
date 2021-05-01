@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-  <path class="cls-6" d="M404.29,243.12" transform="matrix(1, 0, 0, 1, 201.247935, -43.774562)" style="fill: none; opacity: 0.7; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; stroke-width: 1.5px;"/>
-  <path class="cls-2" d="M 46.312 237.716 L 29.312 283.206 C 24.882 289.206 26.772 294.206 30.982 296.626 L 139.812 355.666 C 142.002 356.856 144.222 355.206 146.392 353.986 L 243.202 299.266 C 243.202 299.266 247.082 296.516 249.202 297.726 L 306.622 325.326 C 310.717 327.641 315.726 327.641 319.822 325.326 L 460.312 245.966 C 462.344 244.821 463.053 242.239 461.892 240.216 L 438.142 198.666" style="fill: none; opacity: 0.93; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 3px;"/>
-  <path class="cls-2" d="M 49.212 231.426 L 269.212 104.426 C 272.135 102.736 275.738 102.736 278.662 104.426 L 434.072 194.156 C 438.921 196.949 438.929 203.944 434.085 206.748 C 434.081 206.751 434.076 206.753 434.072 206.756 L 320.072 272.596 C 314.827 275.61 308.376 275.61 303.132 272.596 L 247.932 240.666 C 245.008 238.976 241.405 238.976 238.482 240.666 L 147.882 292.976 C 144.958 294.666 141.355 294.666 138.432 292.976 L 49.212 241.466 C 45.347 239.245 45.336 233.674 49.192 231.437 C 49.198 231.434 49.205 231.43 49.212 231.426 Z" style="fill: none; opacity: 0.93; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 3px;"/>
-  <text class="cls-3" transform="matrix(1.04, -0.61, 0.81, 0.59, 335.47171, 246.935944)" style="white-space: pre; fill: rgb(234, 234, 234); font-family: Helvetica-Bold, Helvetica; font-size: 20.84px; font-weight: 700; letter-spacing: 0.4168px; line-height: 33.344px; opacity: 0.97;">javie<tspan class="cls-4" x="48.12" y="0" style="letter-spacing: -0.8336px;">r</tspan><tspan x="55.44" y="0">.w</tspan></text>
-  <g class="cls-5" style="opacity: 0.93;" transform="matrix(1, 0, 0, 1, -61.37833, -70.014069)">
+<svg viewBox="139.731 10.662 500 500" xmlns="http://www.w3.org/2000/svg">
+  <path class="cls-6" d="M404.29,243.12" transform="matrix(1, 0, 0, 1, 468.730266, -27.990707)" style="fill: none; opacity: 0.7; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; stroke-width: 1.5px;"/>
+  <path class="cls-6" d="M404.29,243.12" transform="matrix(1, 0, 0, 1, 392.663148, -17.718362)" style="fill: none; opacity: 0.7; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; stroke-width: 1.5px;"/>
+  <path class="cls-2" d="M 235.009 270.34 L 220.374 318.051 C 216.56 324.344 218.187 329.588 221.811 332.126 L 315.503 394.048 C 317.388 395.296 319.299 393.565 321.167 392.286 L 404.511 334.895 C 404.511 334.895 407.851 332.01 409.675 333.279 L 459.108 362.226 C 462.633 364.655 466.945 364.655 470.472 362.226 L 591.419 278.993 C 593.168 277.792 593.778 275.084 592.779 272.963 L 572.333 229.385" style="fill: none; opacity: 0.93; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 3px;"/>
+  <path class="cls-2" d="M 237.506 263.743 L 426.902 130.544 C 429.419 128.772 432.521 128.772 435.038 130.544 L 568.829 224.654 C 573.003 227.584 573.01 234.92 568.84 237.861 C 568.837 237.864 568.832 237.866 568.829 237.869 L 470.687 306.922 C 466.172 310.084 460.618 310.084 456.104 306.922 L 408.582 273.435 C 406.065 271.662 402.963 271.662 400.447 273.435 L 322.45 328.298 C 319.933 330.071 316.831 330.071 314.315 328.298 L 237.506 274.274 C 234.178 271.944 234.169 266.101 237.488 263.755 C 237.494 263.752 237.5 263.748 237.506 263.743 Z" style="fill: none; opacity: 0.93; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 3px;"/>
+  <text class="cls-3" transform="matrix(0.895328, -0.639776, 0.697323, 0.6188, 483.94455, 280.010345)" style="white-space: pre; fill: rgb(234, 234, 234); font-family: Helvetica-Bold, Helvetica; font-size: 20.84px; font-weight: 700; letter-spacing: 0.4168px; line-height: 33.344px; opacity: 0.97;">javie<tspan class="cls-4" x="48.12" y="0" style="letter-spacing: -0.8336px;">r</tspan><tspan x="55.44" y="0">.w</tspan></text>
+  <g class="cls-5" style="opacity: 0.93;" transform="matrix(0.860893, 0, 0, 1.048813, 142.2995, -52.410912)">
     <path class="cls-6" d="M203,364.57v50.8c0,1,2.26,2,2.26.93V365.51c0-1-2.26-2-2.26-.94Z" transform="translate(0 -1.32)" style="fill: rgb(234, 234, 234);"/>
   </g>
-  <g class="cls-5" style="opacity: 0.93;" transform="matrix(1, 0, 0, 1, -61.37833, -70.014069)">
+  <g class="cls-5" style="opacity: 0.93;" transform="matrix(0.860893, 0, 0, 1.048813, 142.2995, -52.410912)">
     <path class="cls-6" d="M371.5,346.67,373.24,385c0,1,2.31,1.82,2.25.48l-1.73-38.33c-.05-1-2.32-1.82-2.26-.48Z" transform="translate(0 -1.32)" style="fill: rgb(234, 234, 234);"/>
   </g>
-  <g class="cls-5" style="opacity: 0.93;" transform="matrix(1, 0, 0, 1, -61.37833, -70.014069)">
+  <g class="cls-5" style="opacity: 0.93;" transform="matrix(0.860893, 0, 0, 1.048813, 142.2995, -52.410912)">
     <path class="cls-6" d="M304,310.13l1.77,43.2c0,1,2.3,1.82,2.25.48l-1.77-43.2c0-1-2.3-1.83-2.25-.48Z" transform="translate(0 -1.32)" style="fill: rgb(234, 234, 234);"/>
   </g>
-  <polyline class="cls-7" points="361.412 173.796 388.552 188.236 364.802 201.946 370.602 191.676" style="fill: none; opacity: 0.96; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; stroke-width: 0.6px;"/>
-  <path class="cls-8" d="M 923.091 206.371" style="fill: none; opacity: 0.93; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 0.5px;"/>
-  <path class="cls-9" d="M 708.681 137.331" style="fill: none; opacity: 0.7; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; stroke-width: 1.5px;"/>
+  <polyline class="cls-7" points="506.276 203.3 529.641 218.445 509.195 232.824 514.188 222.053" style="fill: none; opacity: 0.96; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; stroke-width: 0.6px;"/>
+  <path class="cls-8" d="M 923.091 206.371" style="fill: none; opacity: 0.93; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 0.5px;" transform="matrix(1, 0, 0, 1, 191.415208, 26.056201)"/>
+  <path class="cls-9" d="M 708.681 137.331" style="fill: none; opacity: 0.7; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; stroke-width: 1.5px;" transform="matrix(1, 0, 0, 1, 191.415208, 26.056201)"/>
 </svg>
