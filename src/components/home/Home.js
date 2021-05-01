@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./Home.module.scss"
+import bigLogo from '../../images/logo_white_large.svg';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
           I'm a junior developer based in Singapore specializing in building websites and applications.
         </p>
       </div>
+      <img src={bigLogo} width="800" className={styles.logo}/>
     </div>
   )
 }

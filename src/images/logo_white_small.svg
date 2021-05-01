@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <path class="cls-2" d="M 73.54 190.146 L 225.31 102.516 C 229.332 100.194 234.287 100.194 238.31 102.516 L 394.87 192.916 C 398.984 195.288 398.987 201.226 394.875 203.603 C 394.873 203.604 394.871 203.605 394.87 203.606 L 242.97 291.326 C 238.75 293.766 233.549 293.766 229.33 291.326 L 73.54 201.376 C 69.226 198.875 69.226 192.646 73.54 190.146 Z" style="fill: none; opacity: 0.95; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 3px;"/>
+  <path class="cls-2" d="M 70.3 195.756 L 49.89 254.216 C 47.881 259.964 50.267 266.326 55.56 269.336 L 223.99 365.056 C 230.177 368.564 237.762 368.522 243.91 364.946 L 422.81 260.446 C 428.048 257.389 429.768 250.635 426.63 245.446 L 394.89 192.906" style="fill: none; opacity: 0.95; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 3px;"/>
+  <line class="cls-2" x1="237.05" y1="293.156" x2="237.05" y2="354.336" style="fill: none; opacity: 0.95; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 3px;"/>
+  <text class="cls-3" transform="matrix(1.04, -0.61, 0.81, 0.59, 283.32962, 247.105774)" style="white-space: pre; fill: rgb(234, 234, 234); font-family: Helvetica-Bold, Helvetica; font-size: 23.21px; font-weight: 700; letter-spacing: 0.4642px; line-height: 37.136px; opacity: 0.99;">javie<tspan class="cls-4" x="53.59" y="0" style="letter-spacing: -0.9284px;">r</tspan><tspan class="cls-5" x="61.75" y="0">.w</tspan></text>
+  <path class="cls-6" d="M404.29,243.12" transform="matrix(1, 0, 0, 1, 201.247935, -43.774562)" style="fill: none; opacity: 0.7; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; stroke-width: 1.5px;"/>
+</svg>
