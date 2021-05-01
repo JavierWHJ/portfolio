@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 
 .home {
-    margin: 12rem -5rem;
+    margin: 12rem -10rem;
     display: flex;
     align-content: center;
 }
@@ -29,6 +29,7 @@
 
 .logo {
     position: absolute;
-    right: 60px;
+    right: 140px;
     top: 0px;
+    z-index: -1;
 }
