@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <Link to="/">
-        <img src={smallLogo} width="120"/>
+        <img src={smallLogo} width="120" alt="small logo"/>
       </Link>
     </div>
   </header>
