@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => (
   <header className={styles.header}>
     <div className={styles.logoContainer}>
       <Link to="/">
-        <img src={smallLogo} width="120" alt="small logo"/>
+        <img src={smallLogo} width="80" alt="small logo"/>
       </Link>
     </div>
     <div className={styles.navbar}>

@@ -1,8 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="260.943 1.122 500 500" xmlns="http://www.w3.org/2000/svg">
-  <path class="cls-2" d="M 405.192 220.491 L 530.223 133.991 C 533.536 131.699 537.617 131.699 540.932 133.991 L 669.908 223.226 C 673.297 225.568 673.299 231.429 669.912 233.775 C 669.91 233.776 669.908 233.777 669.908 233.778 L 544.771 320.369 C 541.294 322.777 537.01 322.777 533.534 320.369 L 405.192 231.577 C 401.639 229.108 401.639 222.959 405.192 220.491 Z" style="fill: none; opacity: 0.95; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 3px;"/>
-  <path class="cls-2" d="M 402.523 226.03 L 385.71 283.736 C 384.054 289.41 386.02 295.69 390.38 298.662 L 529.135 393.148 C 534.232 396.611 540.481 396.57 545.545 393.04 L 692.925 289.886 C 697.24 286.868 698.657 280.202 696.072 275.08 L 669.925 223.216" style="fill: none; opacity: 0.95; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 3px;"/>
-  <line class="cls-2" x1="539.894" y1="322.174" x2="539.894" y2="382.567" style="fill: none; opacity: 0.95; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 3px;"/>
-  <text class="cls-3" transform="matrix(0.856762, -0.602142, 0.667286, 0.5824, 578.019958, 276.717194)" style="white-space: pre; fill: rgb(234, 234, 234); font-family: Helvetica-Bold, Helvetica; font-size: 23.21px; font-weight: 700; letter-spacing: 0.4642px; line-height: 37.136px; opacity: 0.99;">javier<tspan class="cls-5" x="57.75" y="0">.w</tspan></text>
-  <path class="cls-6" d="M404.29,243.12" transform="matrix(1, 0, 0, 1, 468.730266, -27.990707)" style="fill: none; opacity: 0.7; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; stroke-width: 1.5px;"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="383.63 130.77 315.24 266.44">
+  <path class="cls-2"
+    d="M 405.192 220.491 L 530.223 133.991 C 533.536 131.699 537.617 131.699 540.932 133.991 L 669.908 223.226 C 673.297 225.568 673.299 231.429 669.912 233.775 C 669.91 233.776 669.908 233.777 669.908 233.778 L 544.771 320.369 C 541.294 322.777 537.01 322.777 533.534 320.369 L 405.192 231.577 C 401.639 229.108 401.639 222.959 405.192 220.491 Z"
+    style="fill: none; opacity: 0.95; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 3px;"></path>
+  <path class="cls-2"
+    d="M 402.523 226.03 L 385.71 283.736 C 384.054 289.41 386.02 295.69 390.38 298.662 L 529.135 393.148 C 534.232 396.611 540.481 396.57 545.545 393.04 L 692.925 289.886 C 697.24 286.868 698.657 280.202 696.072 275.08 L 669.925 223.216"
+    style="fill: none; opacity: 0.95; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 3px;"></path>
+  <line class="cls-2" x1="539.894" y1="322.174" x2="539.894" y2="382.567"
+    style="fill: none; opacity: 0.95; stroke: rgb(234, 234, 234); stroke-miterlimit: 10; stroke-width: 3px;"></line>
+  <text class="cls-3" transform="matrix(0.856762, -0.602142, 0.667286, 0.5824, 578.019958, 276.717194)"
+    style="white-space: pre; fill: rgb(234, 234, 234); font-family: Helvetica-Bold, Helvetica; font-size: 23.21px; font-weight: 700; letter-spacing: 0.4642px; line-height: 37.136px; opacity: 0.99;">javier
+    <tspan class="cls-5" x="57.75" y="0">.w</tspan></text>
+  <path class="cls-6" d="M404.29,243.12" transform="matrix(1, 0, 0, 1, 468.730266, -27.990707)"
+    style="fill: none; opacity: 0.7; stroke: rgb(255, 255, 255); stroke-miterlimit: 10; stroke-width: 1.5px;"></path>
 </svg>
