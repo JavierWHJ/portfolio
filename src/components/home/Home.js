@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "./Home.module.scss"
 import bigLogo from '../../images/logo_white_large.svg';
+import TypeIt from "typeit-react";
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
       <div className={styles.title}>
         <h1>Hello!</h1>
         <h1>
-          I'm <span className={styles.label}>Javier Wong.</span>
+          <TypeIt className={styles.label}>I'm Javier Wong.</TypeIt>
         </h1>
         <h1>I design and build things.</h1>
         <div className={styles.separator}></div>
