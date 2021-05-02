@@ -22,6 +22,43 @@ html {
 body {
     margin: 0;
     background: $background-color;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: $primary-color;
+    font-family: $font-sans;
+    line-height: 1.3;
+    &.hidden {
+      overflow: hidden;
+    }
+    &.blur {
+      overflow: hidden;
+      header {
+        background-color: transparent;
+      }
+      #content > * {
+        filter: blur(5px) brightness(0.7);
+        transition: $transition;
+        pointer-events: none;
+        user-select: none;
+      }
+    }
+}
+
+section {
+    margin: 0 auto;
+    padding: 100px 0;
+    max-width: 1000px;
+    min-height: 100vh;
+    @media (max-width: 768px) {
+      padding: 80px 0;
+    }
+    @media (max-width: 480px) {
+      padding: 60px 0;
+    }
 }
 
 /* Scrollbar Styles */
@@ -44,6 +81,10 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
+::selection {
+    background-color: $light-slate;
+}
+
 :focus {
     outline: 2px dashed $secondary-color;
     outline-offset: 10px;
@@ -55,10 +96,20 @@ a {
     text-decoration-skip-ink: auto;
     color: inherit;
     position: relative;
-    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: $transition;
     &:hover,
     &:focus {
       color: $secondary-color;
       text-shadow: 0 0 10px $secondary-color
     }
 }
+
+hr {
+    background-color: $secondary-color;
+    height: 1px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 1rem;
+  }
