@@ -83,6 +83,7 @@ body::-webkit-scrollbar-thumb {
 
 ::selection {
     background-color: $light-slate;
+    color: $highlight;
 }
 
 :focus {
