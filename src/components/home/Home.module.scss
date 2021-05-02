@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 
 .home {
-    margin: 10rem -10rem;
+    margin: 16rem -10rem;
     display: flex;
     align-content: center;
 }
@@ -30,6 +30,14 @@
 .logo {
     position: absolute;
     right: 200px;
-    top: 180px;
+    top: 200px;
     z-index: -1;
+}
+
+.icons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
 }

@@ -2,6 +2,7 @@ import React from "react"
 import styles from "./Home.module.scss"
 import bigLogo from '../../images/logo_white_large.svg';
 import TypeIt from "typeit-react";
+import { AiFillGithub, AiFillLinkedin, AiFillInstagram, AiFillMail } from 'react-icons/ai';
 
 const Home = () => {
   return (
@@ -16,6 +17,12 @@ const Home = () => {
         <p className={styles.paragraph}>
           I'm a junior developer based in Singapore specializing in building websites and applications.
         </p>
+        <div className={styles.icons}>
+          <AiFillGithub/>
+          <AiFillLinkedin/>
+          <AiFillInstagram/>
+          <AiFillMail/>
+        </div>
       </div>
       <img src={bigLogo} width="800" className={styles.logo} alt="big logo"/>
     </div>
