@@ -1,48 +1,46 @@
-@import '../../styles/variables';
+@import "../../styles/variables";
 
 .header {
-    background: inherit;
-    position: fixed;
-    top: 0;
-    z-index: 11;
-    padding: 0px 20px;
-    width: 100%;
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background: inherit;
+  padding: 0px 20px;
+  width: 100%;
 
-    background-color: rgba(35,41,70, 0.85);
-    // box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    transition: $transition;
+  background-color: rgba(35, 41, 70, 0.85);
+  backdrop-filter: blur(5px);
+//   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
 
-    @media (max-width: 1080px) {
-        padding: 0 40px;
-    }
-    @media (max-width: 768px) {
-        padding: 0 25px;
-    }
+  transition: $transition;
+
+  @media (max-width: 1080px) {
+    padding: 0 40px;
+  }
+  @media (max-width: 768px) {
+    padding: 0 25px;
+  }
 }
 
 .logoContainer {
-    margin-left: 3rem;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .navbar {
-    margin-right: 3rem;
+  margin-right: 3rem;
 }
 
 .navlink {
-    font-family: $font-mono;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 0.90rem;
-    line-height: 14px;
-    margin-right: 50px;
-    letter-spacing: 0.1em;
-    text-decoration: none;
-    color: #FFFFFE;
+  font-family: $font-mono;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.9rem;
+  line-height: 14px;
+  margin-right: 50px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: #fffffe;
 }

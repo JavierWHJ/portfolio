@@ -3,7 +3,6 @@ import styles from "./Home.module.scss"
 import bigLogo from '../../images/logo_white_large.svg';
 import TypeIt from "typeit-react";
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram, AiFillMail } from 'react-icons/ai';
-import { Link } from "gatsby";
 
 const Home = () => {
   return (
@@ -19,15 +18,15 @@ const Home = () => {
           I'm a junior developer based in Singapore specializing in building websites and applications.
         </p>
         <div className={styles.icons}>
-          <Link to="https://www.github.com/javierwhj" target="_blank">
+          <a href="https://www.github.com/javierwhj" target="_blank" rel="noreferrer">
             <AiFillGithub size={30}/>
-          </Link>
-          <Link to="https://www.linkedin.com/in/javierwhj" target="_blank">
+          </a>
+          <a href="https://www.linkedin.com/in/javierwhj" target="_blank" rel="noreferrer">
             <AiFillLinkedin size={30}/>
-          </Link>
-          <Link to="https://www.instagram.com/harveyair.w/" target="_blank">
+          </a>
+          <a href="https://www.instagram.com/harveyair.w/" target="_blank" rel="noreferrer">
             <AiFillInstagram size={30}/>
-          </Link>
+          </a>
           <a href="mailto:javierwhj@gmail.com">
             <AiFillMail size={30}/>
           </a>
