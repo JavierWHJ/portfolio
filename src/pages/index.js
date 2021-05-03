@@ -2,6 +2,7 @@ import React from "react"
 
 import "../styles/index.scss"
 import Layout from "../components/layout"
+import Seo from "../components/seo"
 import Home from "../components/home/Home"
 import About from "../components/about/About"
 import Work from "../components/work/Work"
@@ -10,6 +11,7 @@ import Contact from "../components/contact/Contact"
 
 const IndexPage = () => (
   <Layout>
+    <Seo title="Home" />
     <Home />
     <About />
     <Work />
