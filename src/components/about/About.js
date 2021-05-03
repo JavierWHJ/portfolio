@@ -31,7 +31,7 @@ const About = () => {
     <section>
       <SectionTitle title="About Me"/>
 
-      <div className="inner">
+      <div className={styles.inner}>
         <div>
           <p>
             Hello! I’m Javier, an aspiring software engineer living in
@@ -44,12 +44,10 @@ const About = () => {
             applications. I also enjoy embarking on many different projects and
             constantly learning new technologies to improve myself
           </p>
+          <ul className={styles.tabInfo}>
+            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
         </div>
-        <br/>
-        <ul className={styles.tabInfo}>
-          {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-        </ul>
-        
         <div className={styles.imageContainer}>
           <div className={styles.wrapper}>
             <img src={profileImg} alt="me" height="300px"/>
