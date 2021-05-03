@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "javier-portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Javier's Personal Portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Javier Wong <javierwhj@gmail.com>",
   "dependencies": {
     "framer-motion": "^4.1.11",
     "gatsby": "^2.23.12",
