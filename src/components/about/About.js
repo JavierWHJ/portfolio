@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import styles from "./About.module.scss"
+import SectionTitle from "../shared/SectionTitle"
 
 const About = () => {
 
@@ -30,7 +31,7 @@ const About = () => {
 
   return (
     <section>
-      <h2 className="numbered-heading">About Me</h2>
+      <SectionTitle title="About Me"/>
 
       <div className="inner">
         <div>
