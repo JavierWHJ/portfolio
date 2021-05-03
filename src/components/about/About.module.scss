@@ -1,1 +1,39 @@
 @import "../../styles/variables";
+
+.inner {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 50px;
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.highlight {
+  color: $secondary-color;
+}
+
+.tabInfo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  padding: 0;
+  margin: 20px 0 0 0;
+  overflow: hidden;
+  list-style: none;
+
+  li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: $font-mono;
+    font-size: $font-size-xs;
+    &:before {
+      content: ">";
+      position: absolute;
+      left: 0;
+      color: $secondary-color;
+      font-size: $font-size-sm;
+      line-height: 12px;
+    }
+  }
+}

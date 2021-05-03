@@ -1,8 +1,9 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import styles from "./About.module.scss"
 
 const About = () => {
-  
+
   const data = useStaticQuery(graphql`
     query {
       avatar: file(
@@ -36,19 +37,17 @@ const About = () => {
           <p>
             Hello! I’m Javier, an aspiring software engineer living in
             Singapore. I am currently studying Information Systems (Software
-            Development) in Singapore Management University.
+            Development) in <span className={styles.highlight}>Singapore Management University.</span>
           </p>
-
+          <br/>
           <p>
             I enjoy creating things on the web, whether that be websites or
             applications. I also enjoy embarking on many different projects and
             constantly learning new technologies to improve myself
           </p>
-
-          <p>Here are a few technologies I've been working with recently:</p>
         </div>
-
-        <ul className="skills-list">
+        <br/>
+        <ul className={styles.tabInfo}>
           {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
         </ul>
 

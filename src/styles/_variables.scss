@@ -5,7 +5,18 @@ $dark-slate: #495670;
 $light-slate: #373f64;
 $highlight: #CCD6F6;
 $secondary-highlight: rgba(128, 252, 223, 0.1);
+
 $font-sans: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
 $font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+
+$font-size-xxs: 12px;
+$font-size-xs: 13px;
+$font-size-sm: 14px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 20px;
+$font-size-xxl: 22px;
+$font-size-heading: 32px;
+
 $easing: cubic-bezier(0.645, 0.045, 0.355, 1);
 $transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
