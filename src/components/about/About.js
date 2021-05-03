@@ -14,6 +14,19 @@ const About = () => {
     "Springboot",
   ]
 
+  const interests = [
+    "Cooking",
+    "Watching Netflix",
+    "Gymming",
+    "Video Games",
+    "Keyboards"
+  ]
+
+  const certification = [
+    "AWS Solution Architect Associate",
+    "AWS Cloud Practitioner",
+  ]
+
   return (
     <section>
       <SectionTitle title="About Me"/>

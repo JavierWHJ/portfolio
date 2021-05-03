@@ -58,10 +58,12 @@
       &:after {
         top: 15px;
         left: 15px;
+        box-shadow: 0 0 10px $secondary-color;
       }
       img {
         filter: none;
         z-index: 1;
+        box-shadow: 0 0 10px $secondary-color;
       }
     }
     img {
