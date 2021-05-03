@@ -6,7 +6,7 @@ import profileImg from "../../images/me.jpg"
 const About = () => {
 
   const skills = [
-    "JavaScript (ES6+)",
+    "JavaScript",
     "React",
     "Vue",
     "Node.js",
