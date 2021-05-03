@@ -20,16 +20,16 @@ const Home = () => {
         </p>
         <div className={styles.icons}>
           <Link to="https://www.github.com/javierwhj" target="_blank">
-            <AiFillGithub/>
+            <AiFillGithub size={30}/>
           </Link>
           <Link to="https://www.linkedin.com/in/javierwhj" target="_blank">
-            <AiFillLinkedin/>
+            <AiFillLinkedin size={30}/>
           </Link>
           <Link to="https://www.instagram.com/harveyair.w/" target="_blank">
-            <AiFillInstagram/>
+            <AiFillInstagram size={30}/>
           </Link>
           <a href="mailto:javierwhj@gmail.com">
-            <AiFillMail/>
+            <AiFillMail size={30}/>
           </a>
         </div>
       </div>
