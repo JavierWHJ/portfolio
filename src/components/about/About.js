@@ -1,24 +1,9 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import styles from "./About.module.scss"
 import SectionTitle from "../shared/SectionTitle"
+import profileImg from "../../images/me.jpg"
 
 const About = () => {
-
-  const data = useStaticQuery(graphql`
-    query {
-      avatar: file(
-        sourceInstanceName: { eq: "images" }
-        relativePath: { eq: "me.jpg" }
-      ) {
-        childImageSharp {
-          fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
-          }
-        }
-      }
-    }
-  `)
 
   const skills = [
     "JavaScript (ES6+)",
@@ -51,16 +36,12 @@ const About = () => {
         <ul className={styles.tabInfo}>
           {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
         </ul>
-
-        {/* <StyledPic>
-          <div className="wrapper">
-            <Img
-              fluid={data.avatar.childImageSharp.fluid}
-              alt="Avatar"
-              className="img"
-            />
+        
+        <div className={styles.imageContainer}>
+          <div className={styles.wrapper}>
+            <img src={profileImg} alt="me" height="300px"/>
           </div>
-        </StyledPic> */}
+        </div>
       </div>
     </section>
   )
