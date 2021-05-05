@@ -11,7 +11,12 @@ const About = () => {
     "Vue",
     "Node.js",
     "Flask",
-    "Springboot",
+    "Springboot"
+  ]
+
+  const certification = [
+    "AWS Solution Architect Associate",
+    "AWS Cloud Practitioner",
   ]
 
   const interests = [
@@ -22,10 +27,6 @@ const About = () => {
     "Keyboards"
   ]
 
-  const certification = [
-    "AWS Solution Architect Associate",
-    "AWS Cloud Practitioner",
-  ]
 
   return (
     <section>
@@ -41,7 +42,7 @@ const About = () => {
           <br/>
           <p>
             I enjoy creating things on the web, whether that be websites or
-            applications. I also enjoy embarking on many different projects and
+            applications. I also enjoy embarking on different projects and
             constantly learning new technologies to improve myself
           </p>
           <ul className={styles.tabInfo}>
@@ -50,10 +51,10 @@ const About = () => {
         </div>
         <div className={styles.imageContainer}>
           <div className={styles.wrapper}>
-            <img src={profileImg} alt="me" height="300px"/>
+            <img src={profileImg} alt="me" height="400px"/>
           </div>
         </div>
-      </div>
+      </div>  
     </section>
   )
 }
