@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react"
+import styles from './Jobs.module.scss'
 import { useStaticQuery, graphql } from "gatsby"
 import { KEY_CODES } from "../../utils/index"
 import SectionTitle from "../shared/SectionTitle"
@@ -73,8 +74,8 @@ const Work = () => {
     <section>
       <SectionTitle title="Work Experience" />
 
-      <div className="inner">
-        <div role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
+      <div className={styles.inner}>
+        <div className={styles.tablist} role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { company } = node.frontmatter
@@ -89,15 +90,16 @@ const Work = () => {
                   tabIndex={activeTabId === i ? "0" : "-1"}
                   aria-selected={activeTabId === i ? true : false}
                   aria-controls={`panel-${i}`}
+                  className={styles.tab}
                 >
                   <span>{company}</span>
                 </button>
               )
             })}
-          <div activeTabId={activeTabId} />
+          <div className={styles.highlight} activeTabId={activeTabId} style={{transform: `translateY(calc(${activeTabId} * 42px))`}} />
         </div>
 
-        <div>
+        <div className={styles.panels}>
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node
@@ -111,6 +113,7 @@ const Work = () => {
                   aria-labelledby={`tab-${i}`}
                   aria-hidden={activeTabId !== i}
                   hidden={activeTabId !== i}
+                  className={styles.panel}
                 >
                   <h3>
                     <span>{title}</span>

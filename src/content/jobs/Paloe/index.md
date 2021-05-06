@@ -1,7 +1,7 @@
 ---
 date: '2020-07-31'
-title: 'Backend Developer Intern'
-company: 'TheNightMrkt'
+title: 'Web Developer Intern'
+company: 'Paloe'
 location: 'Singapore'
 range: 'May - July 2020'
 url: 'https://www.hapz.com'
