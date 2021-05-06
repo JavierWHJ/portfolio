@@ -167,3 +167,36 @@
     font-size: $font-size-xs;
   }
 }
+
+.inlineLink {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    transition: $transition;
+    color: $secondary-color;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $secondary-color;
+      outline: 0;
+      &:after {
+        width: 100%;
+      }
+      & > * {
+        color: $secondary-color !important;
+        transition: $transition;
+      }
+    }
+    &:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 1px;
+      position: relative;
+      bottom: 0.37em;
+      background-color: $secondary-color;
+      transition: $transition;
+      opacity: 0.5;
+    }
+}

@@ -117,15 +117,15 @@ const Work = () => {
                 >
                   <h3>
                     <span>{title}</span>
-                    <span className="company">
+                    <span className={styles.company}>
                       &nbsp;@&nbsp;
-                      <a href={url} className="inline-link">
+                      <a href={url} target="__blank" className={styles.inlineLink}>
                         {company}
                       </a>
                     </span>
                   </h3>
 
-                  <p className="range">{range}</p>
+                  <p className={styles.range}>{range}</p>
 
                   <div dangerouslySetInnerHTML={{ __html: html }} />
                 </div>
