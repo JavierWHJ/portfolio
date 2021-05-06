@@ -1,9 +1,10 @@
 import React from 'react'
+import SectionTitle from '../shared/SectionTitle'
 
 const Projects = () => {
     return (
         <section>
-            Projects
+            <SectionTitle title="Projects"/>
         </section>
     )
 }

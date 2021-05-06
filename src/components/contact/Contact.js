@@ -1,9 +1,10 @@
 import React from 'react'
+import SectionTitle from '../shared/SectionTitle'
 
 const Contact = () => {
     return (
         <section>
-            Contact me
+            <SectionTitle title="Get In Touch"/>
         </section>
     )
 }
