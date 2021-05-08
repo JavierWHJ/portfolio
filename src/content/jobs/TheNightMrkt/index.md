@@ -1,6 +1,6 @@
 ---
 date: '2020-05-31'
-title: 'Software Engineer Intern'
+title: 'Backend Developer Intern'
 company: 'TheNightMrkt'
 location: 'Singapore'
 range: 'December - May 2020'
