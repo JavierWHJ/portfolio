@@ -49,6 +49,12 @@ const About = () => {
           <ul className={styles.tabInfo}>
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
+          <ul className={styles.tabInfo}>
+            {certification && certification.map((cert, i) => <li key={i}>{cert}</li>)}
+          </ul>
+          <ul className={styles.tabInfo}>
+            {interests && interests.map((interest, i) => <li key={i}>{interest}</li>)}
+          </ul>
         </div>
         <div className={styles.imageContainer}>
           <div className={styles.wrapper}>

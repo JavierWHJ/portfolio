@@ -87,7 +87,7 @@ const Work = () => {
               return (
                 <button
                   key={i}
-                  isActive={activeTabId === i}
+                  isactive={activeTabId === i}
                   onClick={() => setActiveTabId(i)}
                   ref={el => (tabs.current[i] = el)}
                   id={`tab-${i}`}
@@ -103,7 +103,7 @@ const Work = () => {
             })}
           <div
             className={styles.highlight}
-            activeTabId={activeTabId}
+            activetabid={activeTabId}
             style={{ transform: `translateY(calc(${activeTabId} * 50px))` }}
           />
         </div>
@@ -117,6 +117,7 @@ const Work = () => {
               return (
                 <div
                   id={`panel-${i}`}
+                  key={i}
                   role="tabpanel"
                   tabIndex={activeTabId === i ? "0" : "-1"}
                   aria-labelledby={`tab-${i}`}
