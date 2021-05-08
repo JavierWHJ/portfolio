@@ -78,7 +78,7 @@
   color: $primary-color;
   font-family: $font-mono;
   font-size: $font-size-md;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   text-align: left;
   white-space: nowrap;
   @media (max-width: 768px) {
@@ -127,7 +127,7 @@
 .panels {
   position: relative;
   width: 70%;
-  margin-left: 40px;
+  margin-left: 50px;
   @media (max-width: 600px) {
     width: 100%;
     margin-left: 0;
