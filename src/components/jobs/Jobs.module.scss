@@ -13,7 +13,7 @@
 .tablist {
   position: relative;
   z-index: 3;
-  width: max-content;
+  width: 15%;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -69,11 +69,12 @@
   height: 42px;
   padding: 0 20px 2px;
   border: none;
-  border-right: 2px solid $light-background-color;
+  border-radius: 0px;
+  border-right: 2px solid $primary-color;
   background-color: transparent;
   color: $primary-color;
   font-family: $font-mono;
-  font-size: $font-size-xs;
+  font-size: $font-size-md;
   text-align: left;
   white-space: nowrap;
   @media (max-width: 768px) {
@@ -122,7 +123,7 @@
 .panels {
   position: relative;
   width: 60%;
-  margin-left: 20px;
+  margin-left: 40px;
   @media (max-width: 600px) {
     margin-left: 0;
   }
@@ -162,7 +163,7 @@
   }
   .range {
     margin-bottom: 25px;
-    color: $light-slate;
+    color: $primary-color;
     font-family: $font-mono;
     font-size: $font-size-xs;
   }
