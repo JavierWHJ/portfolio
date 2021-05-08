@@ -85,11 +85,6 @@ body::-webkit-scrollbar-thumb {
   color: $highlight;
 }
 
-:focus {
-  outline: 2px dashed $secondary-color;
-  outline-offset: 10px;
-}
-
 a {
   display: inline-block;
   text-decoration: none;
