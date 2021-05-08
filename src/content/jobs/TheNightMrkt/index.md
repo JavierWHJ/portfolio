@@ -6,6 +6,7 @@ location: 'Singapore'
 range: 'December - May 2020'
 url: 'https://www.thenightmrkt.com'
 ---
+TheNightMrkt is a freelancing marketplace built for students and side hustling working professionals.
 
-- Developed a highly interactive web application for Hapz events booking platform using Next.js and Typescript
-- Implemented open-source packages and APIs such as Stripe for the platform to improve User Experience for the customers
+- Worked in a team of 3 doing backend development using PHP with Laravel Framework to develop the company's freelancer job platform
+- Developed backend APIs for the platform such as login, registration and company's job listings

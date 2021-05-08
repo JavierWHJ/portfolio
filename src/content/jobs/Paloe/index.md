@@ -7,5 +7,8 @@ range: 'August - December 2020'
 url: 'https://www.paloe.com.sg/'
 ---
 
-- Developed a highly interactive web application for Hapz events booking platform using Next.js and Typescript
-- Implemented open-source packages and APIs such as Stripe for the platform to improve User Experience for the customers
+Paloe helps businesses grow by leveraging on their network of highly qualified CFOs and experienced finance professionals.
+
+- Write modern, maintainable code for internal projects
+- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, React and Ruby on Rails
+- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
