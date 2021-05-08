@@ -1,10 +1,10 @@
 ---
-date: '2020-07-31'
+date: '2020-12-31'
 title: 'Web Developer Intern'
 company: 'Paloe'
 location: 'Singapore'
-range: 'May - July 2020'
-url: 'https://www.hapz.com'
+range: 'August - December 2020'
+url: 'https://www.paloe.com.sg/'
 ---
 
 - Developed a highly interactive web application for Hapz events booking platform using Next.js and Typescript

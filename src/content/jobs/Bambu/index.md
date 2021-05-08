@@ -1,10 +1,10 @@
 ---
-date: '2020-07-31'
+date: '2021-04-26'
 title: 'Full Stack Developer Intern'
 company: 'Bambu'
 location: 'Singapore'
-range: 'May - July 2020'
-url: 'https://www.hapz.com'
+range: 'January - April 2021'
+url: 'https://www.bambu.co'
 ---
 
 - Developed a highly interactive web application for Hapz events booking platform using Next.js and Typescript

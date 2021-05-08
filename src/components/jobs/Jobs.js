@@ -96,7 +96,7 @@ const Work = () => {
                 </button>
               )
             })}
-          <div className={styles.highlight} activeTabId={activeTabId} style={{transform: `translateY(calc(${activeTabId} * 42px))`}} />
+          <div className={styles.highlight} activeTabId={activeTabId} style={{transform: `translateY(calc(${activeTabId} * 50px))`}} />
         </div>
 
         <div className={styles.panels}>
