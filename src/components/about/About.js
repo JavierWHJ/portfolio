@@ -27,7 +27,7 @@ const About = () => {
   ]
 
   return (
-    <section>
+    <section id="about">
       <SectionTitle title="About Me" />
 
       <div className={styles.inner}>

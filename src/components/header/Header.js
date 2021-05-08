@@ -19,16 +19,16 @@ const Header = ({ siteTitle }) => {
           </Link>
         </div>
         <div className={styles.navbar}>
-          <Link to="/" className={styles.navlink}>
+          <Link to="#about" className={styles.navlink}>
             .about()
           </Link>
-          <Link to="/" className={styles.navlink}>
+          <Link to="#work" className={styles.navlink}>
             .work()
           </Link>
-          <Link to="/" className={styles.navlink}>
+          <Link to="#projects" className={styles.navlink}>
             .projects()
           </Link>
-          <Link to="/" className={styles.navlink}>
+          <Link to="#contact" className={styles.navlink}>
             .contact()
           </Link>
           <button onClick={goToResume}>Resume</button>

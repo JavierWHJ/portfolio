@@ -71,7 +71,7 @@ const Work = () => {
   }
 
   return (
-    <section>
+    <section id="work">
       <SectionTitle title="Work Experience" />
 
       <div className={styles.inner}>

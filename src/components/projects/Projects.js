@@ -3,7 +3,7 @@ import SectionTitle from '../shared/SectionTitle'
 
 const Projects = () => {
     return (
-        <section>
+        <section id="projects">
             <SectionTitle title="Projects"/>
         </section>
     )
