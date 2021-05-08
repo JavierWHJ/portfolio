@@ -70,7 +70,7 @@
   align-items: center;
   width: 100%;
   height: 50px;
-  padding: 0 100px 2px 20px;
+  padding: 0 100px 2px 30px;
   border: none;
   border-radius: 0px;
   border-right: 2px solid $primary-color;
@@ -139,7 +139,7 @@
   height: auto;
   padding: 10px 10px;
   font-family: $font-mono;
-
+  line-height: 1.5;
   ul {
     padding: 0;
     margin: 0;
@@ -163,6 +163,7 @@
     font-size: $font-size-xxl;
     font-weight: 600;
     line-height: 1.3;
+    letter-spacing: 0.05em;
     .company {
       color: $secondary-color;
     }
