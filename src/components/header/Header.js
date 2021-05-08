@@ -2,13 +2,12 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styles from "./Header.module.scss"
-import smallLogo from '../../images/logo_white_small_lg.svg';
-import Headroom from "react-headroom";
+import smallLogo from "../../images/logo_white_small_lg.svg"
+import Headroom from "react-headroom"
 
 const Header = ({ siteTitle }) => {
-
   const goToResume = () => {
-    window.open('/resume.pdf')
+    window.open("/resume.pdf")
   }
 
   return (
@@ -16,7 +15,7 @@ const Header = ({ siteTitle }) => {
       <header className={styles.header}>
         <div className={styles.logoContainer}>
           <Link to="/">
-            <img src={smallLogo} width="80" alt="small logo"/>
+            <img src={smallLogo} width="80" alt="small logo" />
           </Link>
         </div>
         <div className={styles.navbar}>

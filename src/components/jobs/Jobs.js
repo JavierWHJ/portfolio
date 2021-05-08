@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react"
-import styles from './Jobs.module.scss'
+import styles from "./Jobs.module.scss"
 import { useStaticQuery, graphql } from "gatsby"
 import { KEY_CODES } from "../../utils/index"
 import SectionTitle from "../shared/SectionTitle"
@@ -9,29 +9,29 @@ const Work = () => {
   const [tabFocus, setTabFocus] = useState(null)
   const tabs = useRef([])
 
-    const data = useStaticQuery(graphql`
-      query {
-        jobs: allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "/jobs/" } }
-          sort: { fields: [frontmatter___date], order: DESC }
-        ) {
-          edges {
-            node {
-              frontmatter {
-                title
-                company
-                location
-                range
-                url
-              }
-              html
+  const data = useStaticQuery(graphql`
+    query {
+      jobs: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/jobs/" } }
+        sort: { fields: [frontmatter___date], order: DESC }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              title
+              company
+              location
+              range
+              url
             }
+            html
           }
         }
       }
-    `)
+    }
+  `)
 
-    const jobsData = data.jobs.edges
+  const jobsData = data.jobs.edges
 
   const focusTab = () => {
     if (tabs.current[tabFocus]) {
@@ -75,7 +75,12 @@ const Work = () => {
       <SectionTitle title="Work Experience" />
 
       <div className={styles.inner}>
-        <div className={styles.tablist} role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
+        <div
+          className={styles.tablist}
+          role="tablist"
+          aria-label="Job tabs"
+          onKeyDown={e => onKeyDown(e)}
+        >
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { company } = node.frontmatter
@@ -96,7 +101,11 @@ const Work = () => {
                 </button>
               )
             })}
-          <div className={styles.highlight} activeTabId={activeTabId} style={{transform: `translateY(calc(${activeTabId} * 50px))`}} />
+          <div
+            className={styles.highlight}
+            activeTabId={activeTabId}
+            style={{ transform: `translateY(calc(${activeTabId} * 50px))` }}
+          />
         </div>
 
         <div className={styles.panels}>
@@ -119,7 +128,11 @@ const Work = () => {
                     <span>{title}</span>
                     <span className={styles.company}>
                       &nbsp;@&nbsp;
-                      <a href={url} target="__blank" className={styles.inlineLink}>
+                      <a
+                        href={url}
+                        target="__blank"
+                        className={styles.inlineLink}
+                      >
                         {company}
                       </a>
                     </span>
