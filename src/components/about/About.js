@@ -4,6 +4,8 @@ import SectionTitle from "../shared/SectionTitle"
 import profileImg from "../../images/me.jpg"
 
 const About = () => {
+  const [activeTabId, setActiveTabId] = useState(0)
+
   const skills = [
     "JavaScript",
     "React",
@@ -20,11 +22,14 @@ const About = () => {
 
   const interests = [
     "Cooking",
-    "Watching Netflix",
-    "Gymming",
+    "Netflix",
+    "Lifting Weights",
     "Video Games",
     "Keyboards",
   ]
+
+  const titles = ["Skills", "Certification", "Interests"]
+  const contents = [skills, certification, interests]
 
   return (
     <section id="about">
@@ -46,15 +51,31 @@ const About = () => {
             applications. I also enjoy embarking on different projects and
             constantly learning new technologies to improve myself
           </p>
-          <ul className={styles.tabInfo}>
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
-          <ul className={styles.tabInfo}>
-            {certification && certification.map((cert, i) => <li key={i}>{cert}</li>)}
-          </ul>
-          <ul className={styles.tabInfo}>
-            {interests && interests.map((interest, i) => <li key={i}>{interest}</li>)}
-          </ul>
+          <div className={styles.tablist}>
+            {titles.map((title, i) => {
+              return (
+                <button
+                  key={i}
+                  id={`tab-${i}`}
+                  className={styles.tab}
+                  onClick={() => setActiveTabId(i)}
+                >
+                  {title}
+                </button>
+              )
+            })}
+          </div>
+          <div className={styles.panels}>
+            {contents.map((content, i) => {
+              return (
+                <div className={styles.panel} hidden={activeTabId !== i}>
+                  <ul className={styles.tabinfo}>
+                    {content && content.map((c, i) => <li key={i}>{c}</li>)}
+                  </ul>
+                </div>
+              )
+            })}
+          </div>
         </div>
         <div className={styles.imageContainer}>
           <div className={styles.wrapper}>
