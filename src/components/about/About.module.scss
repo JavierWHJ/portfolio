@@ -14,14 +14,18 @@
 }
 
 .tablist {
-  margin: 20px 0 0 0;
+  margin: 30px 0 0 0;
+}
+
+.tab {
+  margin: 0 20px 0 0;
 }
 
 .tabinfo {
   display: grid;
   grid-template-columns: repeat(2, minmax(140px, 200px));
   padding: 0;
-  margin: 20px 0 0 0;
+  margin: 30px 0 0 0;
   overflow: hidden;
   list-style: none;
 
