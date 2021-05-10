@@ -41,7 +41,7 @@ const About = () => {
             Hello! I’m Javier, an aspiring software engineer living in
             Singapore. I am currently studying Information Systems (Software
             Development) in{" "}
-            <span className={styles.highlight}>
+            <span className={styles.title}>
               Singapore Management University.
             </span>
           </p>
