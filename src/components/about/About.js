@@ -57,6 +57,7 @@ const About = () => {
                 <button
                   key={i}
                   id={`tab-${i}`}
+                  autoFocus={activeTabId === i}
                   className={styles.tab}
                   onClick={() => setActiveTabId(i)}
                 >

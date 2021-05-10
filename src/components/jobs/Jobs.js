@@ -87,7 +87,6 @@ const Work = () => {
               return (
                 <button
                   key={i}
-                  isactive={activeTabId === i}
                   onClick={() => setActiveTabId(i)}
                   ref={el => (tabs.current[i] = el)}
                   id={`tab-${i}`}
